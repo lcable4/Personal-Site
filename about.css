@@ -1,0 +1,45 @@
+
+
+/* --nyanza: #e4fde1ff;
+--pistachio: #8acb88ff;
+--steel-teal: #648381ff;
+--davys-grey: #575761ff;
+--maximum-yellow-red: #ffbf46ff; */
+
+.intro {
+    color: #e4fde1ff;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 5%;
+    border-bottom: 3px solid #FFBF46;
+}
+div#cards {
+  box-shadow: 10px 10px 5px 0px black;
+  padding: 15px;
+  height: auto;
+  border: 1px solid black;
+  margin: 10px;
+  background-color: #e4fde1ff;
+}
+
+p {
+    margin: 0;
+}
+p.logo-link {
+  font-style: none;
+  font-size: 13px;
+}
+div.img {
+    text-align: center;
+
+}
+img {
+    margin: 10px;
+    align-self:center;
+    max-height: 200px;
+    width: 20%;
+    border-radius: 10%;
+  }

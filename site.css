@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://www.iconfinder.com/icons/5296501/linkedin_network_linkedin_logo_icon');
+
+/* --nyanza: #e4fde1ff;
+--pistachio: #8acb88ff;
+--steel-teal: #648381ff;
+--davys-grey: #575761ff;
+--maximum-yellow-red: #ffbf46ff; */
+
+* {
+    box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  span {
+    font-family: "Aboreto";
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #e4fde1ff;
+    border-radius: 15%;
+    border-bottom: 1px solid #648381ff;
+    color:  #575761ff;
+    
+  }
+  
+  html {
+    font-family: "Aboreto";
+    font-size: 16px;
+    background: #575761ff;
+  }
+  
+  body {
+    background: #648381;
+    max-width: 960px;
+    color: #648381ff;
+    margin: 0 auto;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 4px -2px black;
+    border-bottom: 3px solid black;
+    font-size: 2rem;
+  }
+  footer {
+    border-top: 3px solid black;
+  }
+  header, footer {
+    left: 0;
+    right: 0;
+    width: 100%;  
+    padding: .5em 1em;
+    height: 72px;
+    background-color:#ffbf46ff ;
+    align-items: center;
+  
+  }
+  main {
+    min-height: 100vh;
+    padding: 64px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: #e4fde1ff;
+    background-color: #648381ff;
+    font-family: 'Aboreto', sans-serif; 
+  }
+  
+  .name {
+    float: left;
+  }
+  
+  .links {
+    float: right;
+  }
+  
+  .links a {
+    text-decoration: none;
+    margin-left: .25em;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #575761ff ; 
+    font-family: "Aboreto", sans-serif;
+    background-color: #e4fde1ff;
+    border-radius: 15%;
+    border: 1px solid #575761ff;
+  }
+  
+  .links a:first-of-type {
+    margin-left: 0;
+  }
+  
+  .links a.active {
+    border-bottom: 4px solid #575761ff;
+  }
+  .links a:hover {
+    transform: scale(.8);
+  }
+  .descriptions {
+    size: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #575761ff;
+    padding: 8px;
+    font-family: "Dosis", sans-serif;
+  }
+  h1 {
+    text-align: center;
+    padding: 1rem 0;
+  }
+  h2.head {
+    color: #575761ff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 3%;
+    background-color: #e4fde1ff;
+    border-radius: 40%;
+    border-bottom: 2px solid black;
+  }  
+  h3.title { 
+    color: #575761ff;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    width:100%;
+    margin: 0;
+    margin-top: 1%;
+    box-shadow: 0px 10px 6px 0px black;
+    border-bottom: 3px solid black;
+    background-color: #FFBF46;
+  }
+  div#cards {
+    box-shadow: 10px 10px 5px 0px black;
+    padding: 15px;
+    height: auto;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: #e4fde1ff;
+  }
+  
+  footer {
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+  }
+  p.logo-link {
+    text-decoration: none;
+    font-family: "Dosis", sans-serif;
+    font-size: 30px;
+  }
+  .icons img{  
+    width: 70px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 0;
+    
+  }  
+  .icons img:hover{
+    transform: scale(.8);
+    transition: all .3s; 
+  }
