@@ -6,16 +6,6 @@
 --davys-grey: #575761ff;
 --maximum-yellow-red: #ffbf46ff; */
 
-.intro {
-    color: #e4fde1ff;
-    font-size: large;
-    font-weight: bold;
-    font-family: "Dosis", sans-serif;
-    text-align: center;
-    padding: 4px;
-    margin-bottom: 5%;
-    border-bottom: 3px solid #FFBF46;
-}
 div#cards {
   box-shadow: 10px 10px 5px 0px black;
   padding: 15px;

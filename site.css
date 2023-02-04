@@ -12,8 +12,7 @@
 * {
     box-sizing: border-box;
       margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+      
   }
   span {
     font-family: "Aboreto";
@@ -28,8 +27,6 @@
   }
   
   html {
-    font-family: "Aboreto";
-    font-size: 16px;
     background: #575761ff;
   }
   
@@ -90,15 +87,11 @@
     border: 1px solid #575761ff;
   }
   
-  .links a:first-of-type {
-    margin-left: 0;
-  }
-  
   .links a.active {
     border-bottom: 4px solid #575761ff;
   }
-  .links a:hover {
-    transform: scale(.8);
+  a.topLinkButtons:hover {
+    transform: scale(1.1);
   }
   .descriptions {
     size: 100px;
@@ -108,6 +101,18 @@
     padding: 8px;
     font-family: "Dosis", sans-serif;
   }
+
+  .intro {
+    color: #e4fde1ff;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 5%;
+    border-bottom: 3px solid #FFBF46;
+}
+
   h1 {
     text-align: center;
     padding: 1rem 0;
